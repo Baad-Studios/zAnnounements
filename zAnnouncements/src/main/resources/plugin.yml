@@ -1,0 +1,12 @@
+name: zAnnouncements
+main: com.leonisbaad.AnnouncePlugin
+version: 1.0
+api-version: 1.16.5
+commands:
+  announce:
+    description: Send a custom announcement with e.g. Hex Colors (Format= <#ff0000>)
+    usage: /announce <text>
+  zannounce:
+    description: Reload the plugin configuration
+    usage: /zannounce reload
+    permission: zannounce.reload
